@@ -5,6 +5,7 @@ import QuoteSection from '../components/QuoteSection.jsx'
 import Mockup from '../components/Mockup.jsx'
 import Usecases from '../components/Usecases.jsx'
 import FAQ from '../components/FAQ.jsx'
+import Footer from '../components/Footer.jsx'
 
 const Home = () => {
   return (
@@ -15,7 +16,8 @@ const Home = () => {
         <Mockup />
         <Usecases />
         <FAQ />
-        <QuoteSection />
+        {/* <QuoteSection /> */}
+        <Footer />
       </div>
     </>
   )

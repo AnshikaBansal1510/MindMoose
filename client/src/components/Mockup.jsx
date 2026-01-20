@@ -98,7 +98,7 @@ export default function MindMooseMockup() {
   const current = features.find((f) => f.id === activeFeature);
 
   return (
-    <section className="relative overflow-hidden py-8 mb-25">
+    <section id="features" className="relative overflow-hidden py-8 mb-25">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
         <div className="relative mb-12">
           <div className="rounded-xl border border-border/40 bg-white/50 shadow-xl overflow-hidden">

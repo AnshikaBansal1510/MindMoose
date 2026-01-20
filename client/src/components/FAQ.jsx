@@ -5,8 +5,6 @@ import { ChevronDown } from "lucide-react";
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null); // user-clicked open FAQ
-  const [highlightIndex, setHighlightIndex] = useState(0); // auto-cycle highlight
-  const [isPaused, setIsPaused] = useState(false);
 
   const faqs = [
     {
@@ -44,19 +42,7 @@ const FAQ = () => {
   const toggleQuestion = (index) => {
 
     setOpenIndex(openIndex === index ? null : index);
-    setIsPaused(true); // pause auto-cycle on click
   };
-
-  // Auto-cycle highlight (no opening answers)
-  useEffect(() => {
-    if (isPaused) return;
-
-    const interval = setInterval(() => {
-      setHighlightIndex((current) => (current + 1) % faqs.length);
-    }, 3500);
-
-    return () => clearInterval(interval);
-  }, [isPaused, faqs.length]);
 
   return (
     <section id="faq" className="py-16 sm:py-20 lg:py-24">
@@ -79,8 +65,7 @@ const FAQ = () => {
                 key={index}
                 className="border-border overflow-hidden rounded-lg border transition-all duration-300"
                 style={{
-                  backgroundColor:
-        highlightIndex === index ? "rgba(255, 255, 255, 0.6)" : "rgba(255,255,255,0.3)",
+                  backgroundColor: "rgba(255, 255, 255, 0.6)",
                 }}
               >
                 <button
