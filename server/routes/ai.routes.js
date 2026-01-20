@@ -8,6 +8,5 @@ aiRouter.post('/suggest-coping', protect,  suggestCoping);
 aiRouter.post('/chat', protect, aiTherapistChat);
 aiRouter.post('/self-care-plan', protect,selfCarePlan);
 aiRouter.post('/journal-prompt', protect, journalPrompt);
-// aiRouter.get('/daily-quotes', protect,getDailyQuotes);
 
 export default aiRouter;

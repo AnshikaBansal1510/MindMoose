@@ -7,12 +7,6 @@ moodRouter.use(protect);
 
 moodRouter.post('/', addNewMoodData);
 
-//moodRouter.get('/pattern', getMoodPattern);
-
 moodRouter.get('/user', protect, getMoodData);
-
-//moodRouter.post('/analyze', protect, analyzeMood);
-
-
 
 export default moodRouter;

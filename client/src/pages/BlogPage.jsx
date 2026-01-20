@@ -39,7 +39,7 @@ export default function BlogsPage() {
 
       {/* Page Heading */}
       <h1 className="text-4xl font-semibold text-center text-[#b22d64] mb-10">
-        MindMoose Reflections
+        MindMoose Blogs
       </h1>
 
       <img
