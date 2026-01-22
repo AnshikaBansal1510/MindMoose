@@ -29,7 +29,7 @@ Groq is revolutionizing AI inference by providing ultra-fast, energy-efficient s
 ## Leveraging Groq in Our Project  
 
 <p align="center">
-  <img src="groq.jpg" alt="Groq" width="200px">
+  <img src="groq.jpg" alt="Groq" width="500px">
 </p>
 
 
@@ -106,5 +106,3 @@ npm i groq-sdk
 ## Feedback
 
 If you have any feedback, please reach out to me at anshikabansal1618@gmail.com
-
----
