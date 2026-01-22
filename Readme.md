@@ -50,22 +50,22 @@ Utilizing Groq's API, our chatbot offers real-time, accurate and thoughtful resp
 ## ✨ Preview
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="preview/1.png" alt="AI Mentor Chat" width="45%" />
-  <img src="preview/2.png" alt="Course Page" width="45%" />
+  <img src="preview/1.png" alt="Mood Check" width="45%" />
+  <img src="preview/2.png" alt="Stress Page" width="45%" />
 </div>
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="preview/3.png" alt="Assessments" width="45%" />
-  <img src="preview/4.png" alt="My Notes" width="45%" />
+  <img src="preview/3.png" alt="Add Blog" width="45%" />
+  <img src="preview/4.png" alt="Ai therapist" width="45%" />
 </div>
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="preview/5.png" alt="Assessments" width="45%" />
-  <img src="preview/6.png" alt="My Notes" width="45%" />
+  <img src="preview/5.png" alt="Journaling" width="45%" />
+  <img src="preview/6.png" alt="habits" width="45%" />
 </div>
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="preview/7.png" alt="Assessments" width="45%" />
+<div style="display: flex; justify-center: space-between;">
+  <img src="preview/7.png" alt="blogs page" width="45%" />
 </div>
 
 ## 🛠️ Tech Stack
