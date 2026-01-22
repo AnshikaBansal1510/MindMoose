@@ -291,15 +291,6 @@ const Dashboard = () => {
             <p className="text-[#4a1c2f] font-bold text-xl md:text-2xl leading-relaxed">
             "Small daily steps towards self-care can create the biggest transformations. <br /> Start today, and your future self will thank you."
             </p>
-            
-            <p className="text-[#6b4b57] text-sm italic">— Mental Wellness Daily</p>
-          </div>
-
-          {/* Bottom emojis row */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 flex gap-6">
-            <span className="animate-pulse text-2xl">🌸</span>
-            <span className="animate-pulse text-2xl">✨</span>
-            <span className="animate-pulse text-2xl">💛</span>
           </div>
 
         </div>
