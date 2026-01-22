@@ -64,7 +64,7 @@ Utilizing Groq's API, our chatbot offers real-time, accurate and thoughtful resp
   <img src="preview/6.png" alt="habits" width="45%" />
 </div>
 
-<div style="display: flex; justify-center: space-between;">
+<div style="display: flex; justify-content: space-between;">
   <img src="preview/7.png" alt="blogs page" width="45%" />
 </div>
 
