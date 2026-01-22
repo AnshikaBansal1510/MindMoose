@@ -49,7 +49,7 @@ Utilizing Groq's API, our chatbot offers real-time, accurate and thoughtful resp
 
 ## ✨ Preview
 
-<div style="display: flex; justify-content: space-between;">
+<!-- <div style="display: flex; justify-content: space-between;">
   <img src="preview/1.png" alt="Mood Check" width="45%" />
   <img src="preview/2.png" alt="Stress Page" width="45%" />
 </div>
@@ -66,7 +66,27 @@ Utilizing Groq's API, our chatbot offers real-time, accurate and thoughtful resp
 
 <div style="display: flex; justify-content: space-between;">
   <img src="preview/7.png" alt="blogs page" width="45%" />
-</div>
+</div> -->
+
+<p align="center">
+  <img src="preview/1.png" alt="Mood Check" width="45%" />
+  <img src="preview/2.png" alt="Stress Page" width="45%" />
+</p>
+
+<p align="center">
+  <img src="preview/3.png" alt="Add Blog" width="45%" />
+  <img src="preview/4.png" alt="AI Therapist" width="45%" />
+</p>
+
+<p align="center">
+  <img src="preview/5.png" alt="Journaling" width="45%" />
+  <img src="preview/6.png" alt="Habits" width="45%" />
+</p>
+
+<p align="center">
+  <img src="preview/7.png" alt="Blogs Page" width="45%" />
+</p>
+
 
 ## 🛠️ Tech Stack
 
