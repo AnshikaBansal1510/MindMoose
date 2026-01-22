@@ -69,22 +69,22 @@ Utilizing Groq's API, our chatbot offers real-time, accurate and thoughtful resp
 </div> -->
 
 <p align="center">
-  <img src="preview/1.png" alt="Mood Check" width="50%" />
-  <img src="preview/2.png" alt="Stress Page" width="50%" />
+  <img src="preview/1.png" alt="Mood Check" width="47%" />
+  <img src="preview/2.png" alt="Stress Page" width="47%" />
 </p>
 
 <p align="center">
-  <img src="preview/3.png" alt="Add Blog" width="50%" />
-  <img src="preview/4.png" alt="AI Therapist" width="50%" />
+  <img src="preview/3.png" alt="Add Blog" width="47%" />
+  <img src="preview/4.png" alt="AI Therapist" width="47%" />
 </p>
 
 <p align="center">
-  <img src="preview/5.png" alt="Journaling" width="50%" />
-  <img src="preview/6.png" alt="Habits" width="50%" />
+  <img src="preview/5.png" alt="Journaling" width="47%" />
+  <img src="preview/6.png" alt="Habits" width="47%" />
 </p>
 
 <p align="center">
-  <img src="preview/7.png" alt="Blogs Page" width="50%" />
+  <img src="preview/7.png" alt="Blogs Page" width="47%" />
 </p>
 
 
