@@ -5,7 +5,7 @@ const client = new Groq({ apiKey: process.env.GROQ_API_KEY });
 export class GroqService {
 
   // temperature is scale of creativity
-  static async chatWithMessages({ system, messages, temperature = 0.7, max_tokens = 500, model = "openai/gpt-oss-20b" }) {
+  static async chatWithMessages({ system, messages, temperature = 0.7, max_tokens = 200, model = "openai/gpt-oss-20b" }) {
     const response = await client.chat.completions.create({
       model,
       temperature,

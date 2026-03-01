@@ -118,7 +118,7 @@ export const aiTherapistChat = async (req, res) => {
     const content = await GroqService.chatWithMessages({
       system: systemPrompt,
       messages,
-      max_tokens: 500,
+      max_tokens: 200,
     });
 
     return res.json({ success: true, reply: content });
