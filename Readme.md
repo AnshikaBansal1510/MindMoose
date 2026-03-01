@@ -104,6 +104,52 @@ Utilizing Groq's API, our chatbot offers real-time, accurate and thoughtful resp
 
 ## 🚀 Getting Started
 
+### Environment Variables
+
+Create a .env file in both frontend and backend
+
+#### Backend .env 
+
+   ```
+  PORT=5001
+  MONGODB_URI=your_mongo_connection_string
+  JWT_SECRET=your_jwt_secret
+  IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
+  IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
+  IMAGEKIT_URL_ENDPOINT=your_imagekit_url_endpoint
+  GEMINI_API_KEY=your_gemini_api_key
+  GROQ_API_KEY=your_groq_api_key
+   ```
+
+#### Frontend .env 
+
+   ```
+   VITE_SERVER = your_backend_url
+   ```
+
+### Installation
+
+1. Clone the repository
+   ```
+   git clone https://github.com/your_github_username/MindMoose.git
+   ```
+
+2. Install backend dependencies and start backend
+
+   ```
+   cd server
+   npm install
+   npm run dev
+   ```
+
+3. Install frontend dependencies and start frontend
+
+   ```
+   cd client
+   npm install
+   npm run dev
+   ```
+
 ## Technical Implementation Details for Groq
 
 To integrate Groq's API into our project, follow these steps:  
