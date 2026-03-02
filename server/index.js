@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 5001;
 
 app.use(cors({
   // localhost:5173
-  origin: "https://mind-moose.vercel.app/",
+  origin:["https://mind-moose.vercel.app/","*"],
   credentials: true,    // allow frontend to send cookies
 }));
 
