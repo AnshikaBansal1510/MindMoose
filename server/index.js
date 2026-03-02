@@ -13,6 +13,7 @@ import stressRoutes from "./routes/stress.routes.js";
 
 
 import connectDB from "./config/db.config.js";
+//await connectDB();
 
 
 const app = express();
@@ -25,6 +26,8 @@ app.use(cors({
 
 app.use(express.json());    // to use req.body etc
 app.use(cookieParser());
+
+app.get('/', (req, res) => res.send("API is Working"));
 
 app.use("/api/auth", authRoutes);
 app.use('/api/habits', habitRoutes);
