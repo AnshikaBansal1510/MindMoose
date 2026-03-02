@@ -30,7 +30,7 @@ export const journalPrompt = async (req, res) => {
     return res.json({ success: true, prompt: content });
 
   } catch (err) {
-    res.status(500).json({ success: false, message: err.message || "Internal server error" });
+    res.status(500).json({ success: false, message: err.message || "Service unavailable at the moment" });
   }
 };
 
@@ -67,7 +67,7 @@ export const suggestCoping = async (req, res) => {
     return res.status(200).json({ success: true, coping_strategies: strategies });
 
   } catch (err) {
-    res.status(500).json({ success: false, message: err.message || "Internal server error" });
+    res.status(500).json({ success: false, message: err.message || "Service unavailable at the moment" });
   }
 };
 
@@ -96,7 +96,7 @@ export const selfCarePlan = async (req, res) => {
     return res.status(200).json({ success: true, plan: content });
 
   } catch (err) {
-    res.status(500).json({ success: false, message: err.message || "Internal server error" });
+    res.status(500).json({ success: false, message: err.message || "Service unavailable at the moment" });
   }
 };
 
@@ -124,7 +124,7 @@ export const aiTherapistChat = async (req, res) => {
     return res.json({ success: true, reply: content });
 
   } catch (err) {
-    res.status(500).json({ success: false, message: err.message || "Internal server error" });
+    res.status(500).json({ success: false, message: err.message || "Service unavailable at the moment" });
   }
 };
 
